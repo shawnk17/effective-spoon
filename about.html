@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Movie List</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-default">
+                <ul class="nav navbar-nav">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>  
+            </nav>
+        </header>
+
+        
+        <div class="three-quarter-width center-block container-fluid">
+            <main>
+              <p class = "lead">  
+              This site uses REST API to search for movies. Once you have a list of movies, you can click on any movie name and it will
+              lead you to itunes store.         
+              </p>
+
+            </main>
+           
+            <!--<main>
+                <div class="col-md-4 panel panel-default">
+                    <div class="panel-heading">
+                        <h1>Search Movies</h1>
+                    </div>
+                    <div class="panel-body">
+                        <form action="#" method="POST">
+                            <input type="text" id="input-movie-text" class="">
+
+                            <button type="button" id="fetch-movie-button" class="btn btn-success">Search for Movies</button>
+                            <button type="button" id="clear-button" class="btn btn-info">Clear</button>
+                        </form>
+                    </div>
+                </div>
+                        
+                <div id="movie-list-panel" class="col-md-3 panel panel-default">
+                    <div class="panel-heading">
+                        <h1>Movie List</h1>
+                    </div>
+                    <div class="panel-body">
+                        <ul id="movie-list" class="list-group">
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3 panel panel-default">
+                    <div class="panel-heading">
+                        <h1>Movie Info</h1>
+                    </div>
+                    <div class="panel-body" id="movie-info">
+                    </div>
+
+                </div>
+       
+            </main>-->
+       
+        </div>
+        <footer>
+            <small>&copy 2017 Kevin Hwangi Kim </small>
+            <!--<small> API provided by http://www.omdbapi.com </small>-->
+        </footer>        
+        <!-- Latest compiled and minified JavaScript -->
+        <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="/js/movies.js"></script>
+    </body>
+</html>
