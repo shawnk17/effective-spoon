@@ -1,7 +1,6 @@
 .navbar  {
     padding: .5rem;
     margin: 1rem;
-
 }
 
 .panel {
@@ -15,4 +14,9 @@
 
 .img-thumbnail {
     margin-right: 1rem;
+}
+
+footer{
+    clear: both;
+    background-color:palegoldenrod;
 }
