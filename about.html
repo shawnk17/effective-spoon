@@ -1,80 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>Movie List</title>
-        <link rel="shortcut icon" href="/pic/favicon.ico" >
-        <link rel="icon" type="image/gif" href="/pic/animated_favicon1.gif">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="/css/styles.css">
-        <link rel="stylesheet" href="/lib/fontawesome-free-5.0.2/web-fonts-with-css/css/fontawesome-all.min.css">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Movie List</title>
+    <link rel="shortcut icon" href="/pic/favicon.ico">
+    <link rel="icon" type="image/gif" href="/pic/animated_favicon1.gif">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+        crossorigin="anonymous">
 
-    </head>
-    <body>
-        <header>
-                <nav class="navbar navbar-inverse">
-                        <div class="container-fluid">
-                          <div class="navbar-header">
-                            <a class="navbar-brand" href="#">WebSiteName</a>
-                          </div>
-                          <ul class="nav navbar-nav">
-                                <li><a href="/index.html">Home</a></li>
-                                <li><a href="#">About</a></li>
-                          </ul>
-                        </div>
-                      </nav>
-        </header>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/lib/fontawesome-free-5.0.2/web-fonts-with-css/css/fontawesome-all.min.css">
+    <!--API provided by http://www.omdbapi.com -->
+</head>
 
-        <div class="three-quarter-width center-block container-fluid">
-            <main>
-              <p class = "lead">  
-              This site uses REST API to search for movies. Once you have a list of movies, you can click on any movie name and it will
-              lead you to itunes store.         
-              </p>
-
-            </main>
-           
-        </div
-        <footer>
-                <aside class="container">
-                        <div class="row">
-                            <div class="col-md-3"><span class="fa-stack fa-lg">
-                                <a class="nounderline" href="https://www.facebook.com/home.php?">
-                                    <span class="fa fa-spin fab fa-rebel"></span>
-                                </a></span>
-                            Facebook
-                          </div>
-                
-                          <div class="col-md-3"><span class="fa-stack fa-lg">
-                                <a class="nounderline" href="https://www.linkedin.com/in/shawn-dholakia-kisnad-b5668527/">
-                                    <span class="far fa-spin fab fa-linkedin"></span>
-                                </a></span>
-                            Linkedin
-                            </div>
-                
-                            <div class="col-md-3"><span class="fa-stack fa-lg">
-                                <a class="nounderline" href="https://github.com/shawnk17">
-                                <span class="fa fa-spin fab fa-github"></span>
-                                </a></span>
-                            GitHub
-                            </div>
-                        </div>
-                    </aside>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-inverse">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+<!--         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav> -->
 
 
-            <small>&copy;2017-2018 Shawnsville, LLC</small>
-            <!--<small> API provided by http://www.omdbapi.com </small>-->
-        </footer>        
+    </header>
 
-        <script
-            src="https://code.jquery.com/jquery-3.1.1.min.js"
-            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-            crossorigin="anonymous"></script>
-            <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-       
-    </body>
+    <div class="three-quarter-width center-block container-fluid">
+        <main>
+            <p class="lead">
+                This site uses REST API to search for movies. Once you have a list of movies, you can click on any movie name and it will
+                lead you to Itunes store.
+            </p>
+        </main>
+    </div>
+    
+    <aside class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <span class="fa-stack fa-lg">
+                    <a class="nounderline" href="https://www.facebook.com/home.php?">
+                        <span class="fa fa-spin fab fa-rebel"></span>
+                    </a>
+                </span>
+                Facebook
+            </div>
+
+            <div class="col-md-3">
+                <span class="fa-stack fa-lg">
+                    <a class="nounderline" href="https://www.linkedin.com/in/shawn-dholakia-kisnad-b5668527/">
+                        <span class="far fa-spin fab fa-linkedin"></span>
+                    </a>
+                </span>
+                Linkedin
+            </div>
+
+            <div class="col-md-3">
+                <span class="fa-stack fa-lg">
+                    <a class="nounderline" href="https://github.com/shawnk17">
+                        <span class="fa fa-spin fab fa-github"></span>
+                    </a>
+                </span>
+                GitHub
+            </div>
+        </div>
+    </aside>
+    
+    <footer>
+    <small>&copy;2017-2018 Shawnsville, LLC</small>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+        crossorigin="anonymous"></script>
+
+</body>
+
 </html>

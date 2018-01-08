@@ -1,3 +1,6 @@
+/* body{
+    float: inherit; 
+} */
 .navbar  {
     padding: .5rem;
     margin: 1rem;
