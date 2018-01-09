@@ -50,7 +50,6 @@ $(document).ready(function(){
             });
         };    
 
-
     getMovieButton.addEventListener("click", function(){
         newSearchUri = searchUri.replace("{{title}}", inputMovie.value);
         $.getJSON(newSearchUri, function(returnData){
