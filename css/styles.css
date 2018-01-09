@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Karla');
 body{
-    background-color: aliceblue;
+    background-color: rgba(135, 206, 250, 0.397);
     font-family: 'Karla', sans-serif;
+    margin: auto;
 }
 .clearfix {
     overflow: auto;
