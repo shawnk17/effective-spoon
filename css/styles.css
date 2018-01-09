@@ -1,6 +1,11 @@
-/* body{
-    body ; 
-} */
+@import url('https://fonts.googleapis.com/css?family=Karla');
+body{
+    background-color: aliceblue;
+    font-family: 'Karla', sans-serif;
+}
+.clearfix {
+    overflow: auto;
+}
 .navbar  {
     padding: .5rem;
     margin: 1rem;
